@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+body{
+	background-color:grey;
+}
+input{
+	margin:10px;
+}
+label{
+	font-weight:10px;
+	font-size:20px;
+}

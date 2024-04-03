@@ -8,28 +8,47 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form  method="post">
+	<form action="#"  method="post">
+		<div>
 		<labe for='name'>Name:</labe>
 		<input type="text" placeholder="name" id="name" required><br>
+			
 		<label for='email'>Email:</label>
 		<input type="Email" placeholder="Email" id="email"required><br>
-     	
-		<label for='gender'>Gender:</span>
-		 <input type = "radio" name = "Gender" value = "Male"> Male
-         <input type = "radio" name = "Gender" value = "Female" Female
-		  id="gender_m, gender_f" required> Female<br>
+		</div>
+		
+		  <label>Gender:</label><br>
+      <input type="radio" id="gender_m" name="gender" required>
+      <label for="gender_m">Male</label>
+      <input type="radio" id="gender_f" name="gender" required>
+      <label for="gender_f">Female</label>
+		  <br>
+		
 		<label for ='car-brands'>Car Brands:</label>
-		<input type="Select" placeholder="--Please choose an option--" id="cars" required><br>
+			 <select id="cars" name="cars" required>
+        <option value="" disabled selected>--Please choose an option--</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Honda">Honda</option>
+        <option value="Ford">Ford</option>
+        <option value="Chevrolet">Chevrolet</option>
+        <option value="BMW">BMW</option>
+				 </select><br>
+		
 		<label for='age'>Age:</label>
 		<input type="Number" placeholder="Age" id="age"  required><br>
+		
 		<label for='dob'>DOB:</label>
 		<input type="Date"  id="	dob" required><br>
+		
 		<label for='tel'>Phone Number:</label>
 		<input type="Tel" placeholder="xxx-xxx-xxxx" id="tel" ><br>
+		
 		<label for='password'>Password:</label>
 		<input type="Password" placeholder="Password" id="password"  required><br>
+		
 		<label for='tos'>I agree to the TOS</label>
 		<input type="Checkbox"  id="tos"  required><br>
+		
 		<button type='submit'>sumbit</button>
 	
 	</form>
